@@ -95,7 +95,6 @@ removeAt k xs = case back of
 
 range :: Int -> Int -> [Int]
 range b e = [b..e]
-
 {- 
 rnd_select :: [a] -> Int -> IO [a]
 rnd_select xs n = do
